@@ -1,0 +1,2 @@
+MOV R0 #0xFFFFF
+ADD r1 r0 #0xF572
