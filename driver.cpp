@@ -25,7 +25,7 @@ int main() {
 	catch (const char* msg) {
 		std::cerr << msg << std::endl;
 	}
-	std::cout << "================================" << std::endl;
+	std::cout << "==========================================" << std::endl;
 	std::cout << std::endl;
 
 	return 0;

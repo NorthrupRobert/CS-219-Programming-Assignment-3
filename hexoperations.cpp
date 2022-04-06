@@ -74,15 +74,15 @@ std::string ConvertDecimalToHex(uint32_t decimalFig) {
 		else if(remainder == 10)
 			hexNum.insert(0, "A"); //shifts remainder character to front should it be A (10)
 		else if(remainder == 11)
-			hexNum.insert(0, "B"); //. . .
+			hexNum.insert(0, "B"); // . . .
 		else if(remainder == 12)
-			hexNum.insert(0, "C"); //. . .
+			hexNum.insert(0, "C"); // . . .
 		else if(remainder == 13)
-			hexNum.insert(0, "D"); //. . .
+			hexNum.insert(0, "D"); // . . .
 		else if(remainder == 14)
-			hexNum.insert(0, "E"); //. . .
+			hexNum.insert(0, "E"); // . . .
 		else if(remainder == 15)
-			hexNum.insert(0, "F"); //. . .
+			hexNum.insert(0, "F"); // . . .
 		remainder = 0;
 	}
 

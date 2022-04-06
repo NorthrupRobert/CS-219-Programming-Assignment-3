@@ -1,2 +1,9 @@
-MOV R0 #0xFFFFF
-ADD r1 r0 #0xF572
+mov R0, #0XffFf
+mov r3, #0x000f
+add r1, R0, r2
+SUB r7, r1, r0
+lsl r4, r0
+lsr r5, r0
+asr r6, r0
+xor r0, #0X0000, r0
+orr r3, #0xf5298, #0xffff

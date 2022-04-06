@@ -11,4 +11,4 @@ hexoperations.o: hexoperations.cpp hexoperations.h
 	g++ -c hexoperations.cpp hexoperations.h
 
 clean:
-	rm *.o *.gch passignment3 exe
+	rm *.o *.gch exe
